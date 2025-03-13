@@ -1,11 +1,12 @@
 import { fileURLToPath, URL } from 'node:url';
-
 import { defineConfig } from 'vite';
 import plugin from '@vitejs/plugin-react';
 import fs from 'fs';
 import path from 'path';
 import child_process from 'child_process';
 import { env } from 'process';
+
+const isProd = process.env.NODE_ENV === 'production';
 
 const baseFolder =
     env.APPDATA !== undefined && env.APPDATA !== ''
@@ -16,7 +17,7 @@ const certificateName = "goods.client";
 const certFilePath = path.join(baseFolder, `${certificateName}.pem`);
 const keyFilePath = path.join(baseFolder, `${certificateName}.key`);
 
-if (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath)) {
+if (!isProd && (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath))) {
     if (0 !== child_process.spawnSync('dotnet', [
         'dev-certs',
         'https',
@@ -25,7 +26,7 @@ if (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath)) {
         '--format',
         'Pem',
         '--no-password',
-    ], { stdio: 'inherit', }).status) {
+    ], { stdio: 'inherit' }).status) {
         throw new Error("Could not create certificate.");
     }
 }
@@ -49,9 +50,9 @@ export default defineConfig({
             }
         },
         port: 5173,
-        https: {
+        https: !isProd ? {
             key: fs.readFileSync(keyFilePath),
             cert: fs.readFileSync(certFilePath),
-        }
+        } : false // Disable HTTPS on Vercel
     }
-})
+});
