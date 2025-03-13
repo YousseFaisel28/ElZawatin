@@ -7,6 +7,7 @@ import {
   MDBIcon,
 } from "mdb-react-ui-kit";
 import "../styles/footer.css";
+import Logo from "../assets/images/cropped_image.svg";
 
 const Myfooter = () => { 
   const [faceColor, setFaceColor] = useState("#9FA6B2");
@@ -34,7 +35,7 @@ const Myfooter = () => {
             <MDBRow>
               <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
                 <img
-                  src="src/assets/images/cropped_image.svg"
+                  src={Logo}
                   width="70"
                   height="70"
                   className="d-inline-block align-top"

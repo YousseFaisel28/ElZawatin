@@ -6,7 +6,7 @@ const Numbers = () => {
             <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Numbers tell our story</h2>
-                    <p className="mt-3 text-xl leading-relaxed text-secondary-dark md:mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                    <p className="mt-3 text-xl leading-relaxed text-secondary-dark md:mt-8">Al Zawatin is leading company in the field of cultivation.</p>
                 </div>
 
                 <div className="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3">
@@ -24,11 +24,11 @@ const Numbers = () => {
                         </h3>
                         <p className="mt-4 text-xl font-medium text-secondary-dark">Revenue Streams</p>
                         <p className="text-base mt-0.5 text-black">                  <a
-                    href="#services"
-                    className="hover-link cursor-pointer text-base font-semibold text-bright-red no-underline transition-all duration-200 hover:text-bright-red"
-                  >
-                    Explore
-                  </a> our diverse portfolio</p>
+                            href="#services"
+                            className="hover-link cursor-pointer text-base font-semibold text-bright-red no-underline transition-all duration-200 hover:text-bright-red"
+                        >
+                            Explore
+                        </a> our diverse portfolio</p>
                     </div>
 
                     <div>
