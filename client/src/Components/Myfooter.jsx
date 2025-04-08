@@ -109,28 +109,28 @@ const Myfooter = () => {
                   className="me-3"
                 />
                 <span className="hover-link">
-                  12 Abbas Al-Akkad St. - Nasr City, Cairo - Egypt
+                  Villa 111 - 5th Settlement, New Cairo - Egypt
                 </span>
               </a>
             </p>
 
             <p>
               <a
-                href="mailto:Info@example-eg.com"
+                href="mailto:Elamalco@yahoo.com"
                 className="text-reset text-sm no-underline"
               >
                 <MDBIcon color="secondary" icon="envelope" className="me-3" />
-                <span className="hover-link">Info@zawatin-eg.com</span>
+                <span className="hover-link">Elamalco@yahoo.com</span>
               </a>
             </p>
 
             <p>
               <a
-                href="tel:+201018881991"
+                href="tel:+201112002838"
                 className="text-reset text-sm no-underline"
               >
                 <MDBIcon color="secondary" icon="phone" className="me-3" />
-                <span className="hover-link">+2010 0000 0000</span>
+                <span className="hover-link">+2011 1200 2838</span>
               </a>
             </p>
           </MDBCol>
@@ -142,7 +142,7 @@ const Myfooter = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         <MDBCol className="text-left text-xs">
-          © 2025 Copyright: zawatin.org
+          © 2025 Copyright: zawatin.com
         </MDBCol>
         <MDBCol className="text-right">
           <a
