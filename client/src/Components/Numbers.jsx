@@ -33,7 +33,7 @@ const Numbers = () => {
 
                     <div>
                         <h3 className="font-bold text-7xl">
-                            <span className="text-transparent bg-clip-text text-dark-red"> 50k </span>
+                            <span className="text-transparent bg-clip-text text-dark-red"> 10k </span>
                         </h3>
                         <p className="mt-4 text-xl font-medium text-secondary-dark">Fidans of land</p>
                         <p className="text-base mt-0.5 text-black">Industry leaders in New Valley Governorate</p>
