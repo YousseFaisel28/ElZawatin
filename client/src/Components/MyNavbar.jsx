@@ -165,7 +165,7 @@ const MyNavbar = () => {
             <li>
               <a
                 onClick={handleShowNavbar}
-                href="#Collaboration"
+                href="#services"
                 name="Collaboration"
                 className="block w-full px-2 py-2 text-left !text-black no-underline transition-all duration-200 hover:text-opacity-80"
               >

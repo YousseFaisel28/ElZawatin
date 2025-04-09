@@ -45,7 +45,7 @@ const Hero = () => {
                   Cultivating Futures
                 </h1>
                 <p className="mt-8 text-xl">
-                  we transform neglected landscapes into 
+                  we transform neglected landscapes into
                   thriving grounds of opportunity.
                 </p>
               </motion.div>
@@ -104,7 +104,7 @@ const Hero = () => {
                 <div className="flex items-center">
                   <i class="fa-solid fa-mountain-sun fa-2x" style={{ color: "#f58a42" }}></i>
                   <h2 className="ml-2.5 text-7xl font-bold !text-white">
-                    50,000+
+                    10,000+
                   </h2>
                 </div>
                 <p className="mt-1.5 max-w-xs text-xl !text-white">
