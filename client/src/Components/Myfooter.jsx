@@ -98,7 +98,7 @@ const Myfooter = () => {
             </h6>
             <p>
               <a
-                href="https://www.google.com/maps/search/+41+Zaker+Hussein+St.+/@30.0437078,31.3347338,19.25z?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3DE"
+                href="https://maps.google.com?ftid=0x14583d00429e74b1:0x2475d5253d94fc97&entry=gps&lucs=,94224825,94227247,94227248,94231188,47071704,94206166,94259573,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy"
                 target="_blank"
                 className="text-reset text-sm no-underline"
               >
